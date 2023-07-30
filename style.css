@@ -51,6 +51,10 @@ body {
     align-items: center;
     justify-content: center;
 }
+.caroursel.drgging .car {
+    cursor: grab;
+    user-select: none;
+}
 .caroursel .card {
     height: 342px;
     list-style: none;
