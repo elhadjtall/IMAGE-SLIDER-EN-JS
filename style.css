@@ -17,6 +17,22 @@ body {
     max-width: 1100px;
     width: 100%;
 }
+.wrapper i {
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+}
+.wrapper i:first-child {
+    left: -22px;
+}
+.wrapper i:last-child {
+    right: -22px;
+}
 .wrapper .caroursel {
     display: grid;
     grid-auto-flow: column;
