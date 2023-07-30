@@ -23,6 +23,11 @@ body {
     grid-auto-columns: calc((100% / 3) - 12px);
     gap: 16px;
 }
+.caroursel :where(.card, .img){
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .caroursel .card {
     height: 342px;
     list-style: none;
