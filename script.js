@@ -12,9 +12,13 @@ const dragStart = () => {
 
 const dragging = (e) => {
     if(!isDragging) return // si isdragging est faux return depuis ça
-    caroursel.scrollLeft = e.pageX;
+    caroursel.scrollLeft = startScrollLeft - (e.pageX - startX);
 }
 
+const dragStop = () => {
+    isDragging = false;
+    caroursel.classList.remove("dragging");
+}
 caroursel.addEventListener("mousemove", dragging);
 caroursel.addEventListener("mousemove", dragging);
 document.addEventListener(mouseup, dragStop);
