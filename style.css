@@ -13,9 +13,17 @@ body {
     background-color: #efefef;
     min-height: 100vh;
 }
+/* Mise en forme de la distance des slides */
+.slide-container{
+    max-width: 1120px;
+    width: 100%;
+    background: gray;
+    padding: 40px 0;
+}
 .slide-content {
     margin: 0 40px;
 }
+/* Mise en forme du slide */
 .card {
     width: 320px;
     border-radius: 25px;
@@ -31,6 +39,7 @@ body {
 .image-content {
     position: relative;   /*Cette partie a permis de mettre la couleur bleu en bas de l'image */
     row-gap: 5px;
+    padding: 25px 0;
 }
 /* la partie qui va mettre la couleur bleu sur la page web */
 .overlay{
@@ -56,7 +65,7 @@ body {
 /* Mise en forme en couleur rouge */
 .overlay::after{
     border-radius: 0 25px 0 0;
-    background-color: red;
+    background-color: #fff; /* La couleur banche à l'extrimité */
 }
 /* Styler l'image */
 .card-image {
