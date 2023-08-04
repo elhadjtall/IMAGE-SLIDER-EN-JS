@@ -8,43 +8,29 @@
     <title>Image slider</title>
 </head>
 <body>
-    <div class="wrapper">
-        <i class='bx bx-chevron-left'></i>
-        <ul class="caroursel">
-            <li class="card">
-                <div class="img"><img src="images/image1.jpeg" alt="img"></div>
-                <h2>Blanche Person</h2>
-                <span>Sales Manager</span>
-            </li>
-            <li class="card">
-                <div class="img"><img src="images/image2.jpeg" alt="img" dragging="false"></div>
-                <h2>Blanche Person</h2>
-                <span>Sales Manager</span>
-            </li>
-            <li class="card">
-                <div class="img"><img src="images/image3.jpeg" alt="img" dragging="false"></div>
-                <h2>Blanche Person</h2>
-                <span>Sales Manager</span>
-            </li>
-            <li class="card">
-                <div class="img"><img src="images/image4.jpeg" alt="img" dragging="false"></div>
-                <h2>Blanche Person</h2>
-                <span>Sales Manager</span>
-            </li>
-            <li class="card">
-                <div class="img"><img src="images/image5.jpeg" alt="img" dragging="false"></div>
-                <h2>Blanche Person</h2>
-                <span>Sales Manager</span>
-            </li>
-            <li class="card">
-                <div class="img"><img src="images/image6.jpeg" alt="img" dragging="false"></div>
-                <h2>Blanche Person</h2>
-                <span>Sales Manager</span>
-            </li>
-        </ul>
-        <i class='bx bx-chevron-right'></i>
-    </div>
+    <div class="slide-container">
+        <div class="slide-content">
+            <div class="card-wrapper">
+                <div class="card">
+                    <div class="image-content">
+                        <span class="overlay"></span>
 
+                        <div class="card-image">
+                            <img src="images/image1.jpeg" alt="" class="card-img">
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name">Elhadj TALL</h2>
+                        <p class="description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                            Consectetur at consequatur dolores aliquam debitis, consequuntur 
+                            perferendis fugit obcaecati possimus ullam voluptatum eaque praesentium.
+                             Possimus,inventore consequatur reiciendis mollitia consectetur ratione?</p>
+                             <button class="button">Voir Plus</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
