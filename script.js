@@ -1,4 +1,4 @@
-var swiper = new Swiper(".slide-content", {
+var Swiper = new swiper(".slide-content", {
     spaceBetween: 30,
     effect: "fade",
     navigation: {
